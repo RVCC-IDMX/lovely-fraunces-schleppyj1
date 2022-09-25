@@ -2,3 +2,25 @@
 
 @use "./base/reset";
 @use "./pages/home";
+
+
+body {
+font-variation-settings: "opsz" 9, "SOFT" 49.7, "WONK" 0;
+font-weight: 600;
+font-style: normal;
+}
+
+.header__title {
+    font-variation-settings: "opsz" 50, "SOFT" 70, "WONK" 0;
+    font-weight: 700;
+}
+
+p.header__desc.header__desc--first {
+    font-variation-settings: "opsz" 30, "SOFT" 100, "WONK" 0.5;
+    font-weight: 100;
+}
+
+.header__desc {
+    font-variation-settings: "opsz" 9, "SOFT" 100, "WONK" 0.25;
+    font-weight: 450;
+}
